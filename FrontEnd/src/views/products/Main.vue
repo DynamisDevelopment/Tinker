@@ -5,7 +5,11 @@
       <div
         class="intro-y col-span-12 flex flex-wrap sm:flex-nowrap items-center mt-2"
       >
-        <button class="btn btn-primary shadow-md mr-2">Add New Product</button>
+        <a href="/products/add-product"
+          ><button class="btn btn-primary shadow-md mr-2">
+            Add New Product
+          </button></a
+        >
         <div class="dropdown">
           <button
             class="dropdown-toggle btn px-2 box text-gray-700 dark:text-gray-300"
@@ -121,7 +125,7 @@
                   }"
                 >
                   <CheckSquareIcon class="w-4 h-4 mr-2" />
-                  {{ faker.trueFalse[0] ? "Active" : "Inactive" }}
+                  {{ faker.trueFalse[0] ? 'Active' : 'Inactive' }}
                 </div>
               </td>
               <td class="table-report__action w-56">

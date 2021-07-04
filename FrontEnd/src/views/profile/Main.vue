@@ -81,52 +81,6 @@
           </div>
         </div>
       </div>
-      <div
-        class="nav nav-tabs flex-col sm:flex-row justify-center lg:justify-start"
-        role="tablist"
-      >
-        <a
-          id="dashboard-tab"
-          data-toggle="tab"
-          data-target="#dashboard"
-          href="javascript:;"
-          class="py-4 sm:mr-8 active"
-          role="tab"
-          aria-controls="dashboard"
-          aria-selected="true"
-          >Dashboard</a
-        >
-        <a
-          id="account-and-profile-tab"
-          data-toggle="tab"
-          data-target="#account-and-profile"
-          href="javascript:;"
-          class="py-4 sm:mr-8"
-          role="tab"
-          aria-selected="false"
-          >Account & Profile</a
-        >
-        <a
-          id="activities-tab"
-          data-toggle="tab"
-          data-target="#activities"
-          href="javascript:;"
-          class="py-4 sm:mr-8"
-          role="tab"
-          aria-selected="false"
-          >Activities</a
-        >
-        <a
-          id="tasks-tab"
-          data-toggle="tab"
-          data-target="#tasks"
-          href="javascript:;"
-          class="py-4 sm:mr-8"
-          role="tab"
-          aria-selected="false"
-          >Tasks</a
-        >
-      </div>
     </div>
     <!-- END: Profile Info -->
     <div class="intro-y tab-content mt-5">

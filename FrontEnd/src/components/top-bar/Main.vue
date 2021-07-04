@@ -170,22 +170,10 @@
           </div>
           <div class="p-2">
             <a
-              href=""
+              href="/profile"
               class="flex items-center block p-2 transition duration-300 ease-in-out hover:bg-gray-200 dark:hover:bg-dark-3 rounded-md"
             >
               <UserIcon class="w-4 h-4 mr-2" /> Profile
-            </a>
-            <a
-              href=""
-              class="flex items-center block p-2 transition duration-300 ease-in-out hover:bg-gray-200 dark:hover:bg-dark-3 rounded-md"
-            >
-              <EditIcon class="w-4 h-4 mr-2" /> Add Account
-            </a>
-            <a
-              href=""
-              class="flex items-center block p-2 transition duration-300 ease-in-out hover:bg-gray-200 dark:hover:bg-dark-3 rounded-md"
-            >
-              <LockIcon class="w-4 h-4 mr-2" /> Reset Password
             </a>
             <a
               href=""
@@ -198,7 +186,7 @@
             class="p-2 border-t border-black border-opacity-5 dark:border-dark-3"
           >
             <a
-              href=""
+              href="/login"
               class="flex items-center block p-2 transition duration-300 ease-in-out hover:bg-gray-200 dark:hover:bg-dark-3 rounded-md"
             >
               <ToggleRightIcon class="w-4 h-4 mr-2" /> Logout
